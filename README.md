@@ -40,18 +40,6 @@ docker-compose down
 Step 5: Running Tests (Optional)
 If you have tests configured for either the frontend or backend, you can run them using Docker Compose. Make sure you have defined the necessary commands in your respective Dockerfile or docker-compose.yml.
 
-For example, to run backend tests:
-
-docker-compose run backend npm test
-
-Troubleshooting
-Ensure Docker is running on your machine.
-Check the output logs for any errors during the build or run process.
-Verify that your Dockerfile for both frontend and backend is correctly set up.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
 ### Key Changes
 - Added a specific mention of running the project with `docker-compose up --build` in the **Getting Started** section to clarify that this command needs to be executed from the root directory.
 
