@@ -30,8 +30,8 @@ docker-compose up --build
 This command will build the Docker images for both the frontend and backend and start the services. You should see output indicating that both services are running.
 
 Step 3: Access the Applications
-Frontend: Open your web browser and navigate to http://localhost:3000.
-Backend: The backend API should be accessible at http://localhost:5000.
+Frontend: Open your web browser and navigate to http://localhost:3001.
+Backend: The backend API should be accessible at http://localhost:3003.
 Step 4: Stopping the Services
 To stop the running services, press CTRL + C in the terminal where Docker Compose is running, or run:
 
