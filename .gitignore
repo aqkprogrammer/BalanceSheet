@@ -1,0 +1,54 @@
+# Node modules for backend
+/backend/node_modules/
+
+# Node modules for frontend
+/frontend/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build output
+/frontend/build/
+frontend/dist/
+
+# Environment variables
+*.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Temporary files
+tmp/
+temp/
+
+# Frontend specific
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+
+# Backend specific
+/backend/.env.local
+/backend/.env.development.local
+/backend/.env.test.local
+
+# Jest coverage and config
+*.test.js
+*.test.ts
+/backend/jest.config.js
+/backend/jest.config.ts
+/frontend/jest.config.js
+/frontend/jest.config.ts
+
+# Typescript files
+*.tsbuildinfo

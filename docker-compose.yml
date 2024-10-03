@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+    xero-mock-api:
+        image: jaypeng2015/show-me-the-money
+        ports:
+            - "3002:3000"  # Exposing mock API on port 3002
+        restart: always
+
+    backend:
+        build:
+            context: ./backend
+        ports:
+            - "3003:3000"  # Backend API on port 3000
+        depends_on:
+            - xero-mock-api  # Ensure the mock API is up before starting the backend
+        restart: always
+
+    frontend:
+        build:
+            context: ./frontend
+        ports:
+            - "3001:3000"  # Frontend on port 3001
+        depends_on:
+            - backend  # Ensure the backend is up before starting the frontend
+        restart: always
