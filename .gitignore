@@ -1,7 +1,7 @@
 # Node modules for backend
 /backend/node_modules/
 
-# Node modules for frontend
+# Node modules for front
 /frontend/node_modules/
 
 # Logs
@@ -11,7 +11,7 @@ npm-debug.log*
 
 # Build output
 /frontend/build/
-frontend/dist/
+front/dist/
 
 # Environment variables
 *.env
@@ -32,7 +32,7 @@ coverage/
 tmp/
 temp/
 
-# Frontend specific
+# front specific
 /frontend/.env.local
 /frontend/.env.development.local
 /frontend/.env.test.local
